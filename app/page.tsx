@@ -1,4 +1,5 @@
 import Posts from "./components/Posts"
+import Footer from "./components/Footer"
 import MyProfilePic from "./components/MyProfilePic"
 
 export const revalidate = 86400
@@ -14,6 +15,7 @@ export default function Home() {
           </span>
         </p>
         <Posts />
+        <Footer />
     </div>
   )
 }
