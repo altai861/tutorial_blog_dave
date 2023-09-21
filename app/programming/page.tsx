@@ -16,7 +16,7 @@ export default async function Programming() {
     if (!posts) return <p className="mt-10 text-center">Sorry, no posts available</p>
 
 
-    const tagPosts = posts.filter(post => post.tags.includes("programming" || "coding" || "software engineering"))
+    const tagPosts = posts.filter(post => post.tags.includes("programming"))
 
     if (!tagPosts.length) {
         return (
